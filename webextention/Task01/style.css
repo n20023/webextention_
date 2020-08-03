@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* 画像のサイズを画面に合わせる */
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+body {
+	background-color: #fafad2;
+}
+
+.table1 { 
+	margin: 10px; padding: 10px
+}
+
+
+a:hover{color:#ff4500; background:#ffffe0;}
+
+a:active {color:#006400;}
+
+
+#page-title1 {
+	color: #ff4500;
+	font-size:6ex;
+}
+
+
+p { 
+	line-height: 20px; padding: 14px;
+	text-align: start;
+}
+
+
+li {
+	font-weight: 800;
+}
+
+
+.table2 { 
+	border: double 4px #0000ff;
+}
+
+.table3 {
+	margin: 30px 30px;
+	border: medium dashed #191970;
+}
+
+
+
