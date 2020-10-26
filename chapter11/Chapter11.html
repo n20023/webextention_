@@ -1,0 +1,62 @@
+<!DoCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>お問い合わせフォーム</title>
+<meta name="description" content="フォーム練習で作成">
+
+</head>
+<body>
+<h1>お問い合わせ</h1>
+
+<style>
+	input,
+	textarea {
+		box-sizing: border-box;
+		font0family: sans-serif;
+	}
+	input[type="text"]
+	input[type="email"] {
+		border: 1px solid #ccc;
+		padding: 8px;
+		width: 100%;
+		font-size: 16px;
+	}
+	textarea {
+		border: 1px solid #ccc;
+		padding: 8px;
+		width: 100%;
+		font-size: 16px;
+	}
+	.submit-p {
+		text-align: center;
+	}
+	input[type="sumbmit"] {
+		border: 1px solid #0086f9;
+		border-radius: 6px;
+	    padding: 12px 48px;
+	    font-size: 16px;
+	    background: linear-gradient(0deg,#0086f9,#b6d6f7);
+        color: #fff;
+        font-weight: bold;
+    }
+    input[type="submit"]:hover {
+    	background: linear-gradient(0deg,#2894f9,#d2e4f7);
+    }
+    input[type="submit"]:active {
+    	bacground: linear-gradient(0deg,#0074d8,#b6d6f7);
+    }
+</style>
+</body>
+<body>
+	<form action="#" method="POST" id="contact">
+		<p><label for="name-field">お名前</label><br>
+			<input type="text" name="name" id="name-field"></p>
+		<p><label for="email-field">メールアドレス</label><br>
+		<input type="email" name="name" id="name-field"></p>	
+		<p><label for="comment">お問い合わせの内容</label><br>
+		    <textarea name="coment" id="coment"></textarea></p>
+		<p class="submit-p"><input type="submit" balue="送信する"id="submit" name="submit" value="送信する"id="submit" name="submit"></p>
+    </form>
+</body>
+</html>
