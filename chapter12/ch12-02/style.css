@@ -8,6 +8,11 @@ body{
 	width:1000px;
 }
 
+section .container{
+	display: flex;
+	flex-flow: column;
+}
+
 .header-inner{
 	padding:10px 10px 0 10px;
 	background:#bad7f5;
@@ -51,4 +56,26 @@ nav{
 }
 footer{
 	margin-top:20px;
+}
+.sidebar1{
+	flex: 0 0 200px;
+	order: 1;
+}
+.sidebar2{
+	flex: 0 0 250px;
+	order: 3;
+}
+
+@media only screen and (min-width: 768px){
+	section .container{
+		flex-flow:row;
+	}
+	main{
+		flex: 1 1 auto;
+		order: 2;
+	}
+	.sidebar{
+		flex: 0 0 340px;
+		order: 1;
+	}
 }
