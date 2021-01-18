@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/* ========== すべて共通　========== */
+html,body {
+	font-size: 16px;
+	font-family : sans-serif;
+	color: #393939;
+	background: #efefef;
+}
+
+bady, div, p, h1, h2, h3, h4, ul, figure {
+	margin: 0;
+	padding: 0;
+}
+
+p, td, th, li {
+	line-height: 1.8;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+a {
+	color: #709a00;
+}
+
+a:hover {
+	color: #95cd00;
+}
+
+a:active {
+	color: #4b6700;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* 共通の見出し*/
+main h1{
+	margin-bottom: 1rem;
+	border-bottom: 1px dashed #c84040;
+	font-weight: normal;
+	font-size: 1.6rem;
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 1000px;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/* ヘッダ*/
+
+header {
+	background: #c84040;
+}
+
+.header-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* ナビゲーション*/
+
+nav {
+	background: #393939;
+}
+
+.navbar {
+	display: none;
+	list-style-type: none;
+}
+
+.navbar a{
+	display: block;
+	padding: 0.6rem 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background: #c84040;
+}
+
+@media screen and (min-width: 768px) {
+	.navbar{
+		display: flex !important;
+	}
+
+	.navbar li {
+		flex: 1 1 auto;
+		text-align: center;
+	}
+
+	.navbar a.nav-current {
+		background: #c84040;
+	}
+}
+
+/* メインエリア基本レイアウト*/
+
+main {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #efefef;
+}
+
+@media screen and (min-width: 768px) {
+	main {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+/* フッター*/
+
+footer{
+	background: #c84040;
+	font-size: 0.9rem;
+	color: #fff;
+}
+
+.footer-container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
