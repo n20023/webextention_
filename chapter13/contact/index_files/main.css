@@ -376,44 +376,8 @@ footer{
 	background-size: 40px 40px;
 }
 
-/*お申し込み*/
-.contact {
-	padding: 20px;
-	background: #fff;
-	border-radius: 10px;
-}
-.contact p {
-	margin-bottom: 1em;
-}
 
-input[type="text"]
-input[type="email"]
-textarea {
-	width: 100%;
-}
-textarea {
-	height: 200px;
-	border: 1px solid: #ccc;
-}
 
-@media screen and (min-width: 768px) {
-	input[type="type"]
-	input[type="email"] {
-	width: 50%}
-}
-
-/*お申し込みフォーム*/
-input[type="submit"] {
-	width: 300px;
-	padding: 8px 0;
-	background-color: #709a00;
-	border: none;
-	border-radius: 10px;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-	font-size: 1.2rem;
-}
 
 
 
